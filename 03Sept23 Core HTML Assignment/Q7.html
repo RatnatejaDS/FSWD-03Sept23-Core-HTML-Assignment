@@ -1,0 +1,82 @@
+<!-- Build a complex nested list structure representing a multi-level table of contents. Use unordered lists
+(<ul>) and list items (<li>) with inline-block styling to create a structured layout. Apply formatting tags to
+enhance the presentation of list items -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table of Contents</title>
+    <style>
+        /* Styling for list items */
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-left: 20px;
+            /* Add indentation to create the nested structure */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Table of Contents</h1>
+
+    <!-- Main unordered list representing the table of contents -->
+    <ul>
+        <li><strong>Part 1 : Introduction </strong></li>
+
+        <li><strong>Part 2 : Getting Started </strong>
+            <ul>
+                <li>2.1 Installing Software</li>
+                <li>2.2 Creating New Project
+                    <ul> 
+                        <li>2.2.1 Project Templates</li>
+                        <li>2.2.2 Customizing Settings</li>
+                    </ul>
+                </li>
+                <li>2.3 Exploring The Interface
+                    <ul>
+                        <li>2.3.1 Toolbar Features</li>
+                        <li>2.3.2 Panel Layout
+                            <ul>
+                                <li>2.3.2.1 Docking Panels</li>
+                                <li>2.3.2.2 Tabbed Interface</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>Part 3 : Advanced Topics </strong>
+            <ul>
+                <li>3.1 Working with Plugins
+                    <ul>
+                        <li>3.1.1 Installing Plugins</li>
+                        <li>3.1.2 Plugin Configuration</li>
+                    </ul>
+                </li>
+                <li>3.2 Customizing the UI
+                    <ul>
+                        <li>3.2.1 Changing Themes</li>
+                        <li>3.2.2 Configuring Shortcuts</li>
+                    </ul>
+                </li>
+                <li>3.3 Optimizing Performance
+                    <ul>
+                        <li>3.3.1 Caching Strategies</li>
+                        <li>3.3.2 Resource Minification</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li><strong>Part 4 : Conclusion </strong> </li>
+    </ul>
+</body>
+
+</html>
